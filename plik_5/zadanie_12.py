@@ -8,6 +8,7 @@ source = set(source)
 result = {}
 
 [result.update({i: len(i)}) for i in source]
+dict_comprehension = {i: len(i) for i in source}
 
 print(result)
-
+print(dict_comprehension)
