@@ -68,10 +68,8 @@ class Kierownik(Pracownik):
 
 
 kierownik = Kierownik("Cezary", "Szukiel", "Kierownik Projektu", "IT")
-print("*-" * 50)
-print()
 print(kierownik.przedstaw_sie())
-print("*-" * 50)
+
 
 
 # 2.4.Dziedziczenie wielokrotne - Utwórz klasy Sportowiec i Student, a następnie stwórz
