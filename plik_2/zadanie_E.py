@@ -10,9 +10,13 @@ print("Imiona zostały zapisane do pliku")
 
 
 # Otwórz plik tekstowy i wypisz jego zawartość na ekranie.
-with open('names.txt', 'r') as names_file:
-    content = names_file.read()
-    print(content)
+try:
+    with open('names.txt', 'r') as names_file:
+        content = names_file.read()
+        print(content)
+except FileNotFoundError:
+    print("File not found")
+
 
 
 # Napisz funkcję, która odczytuje plik i liczy wystąpienia danego słowa.

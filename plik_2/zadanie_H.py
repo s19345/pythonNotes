@@ -15,3 +15,7 @@
 
 
 # Do czego można użyć “if __name__ == "__main__"”
+# Instrukcja if __name__ == "__main__" pozwala nam kontrolować, które fragmenty kodu uruchamiają się w zależności od tego,
+# czy plik jest uruchamiany bezpośrednio, czy importowany do innego skryptu. Dzięki temu możemy oddzielić kod
+# przeznaczony do uruchamiania jako samodzielny skrypt od kodu, który ma być używany jako moduł w innych programach.
+# Pozwala to uniknąć niechcianego wykonywania kodu podczas importu

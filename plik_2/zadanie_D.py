@@ -1,9 +1,9 @@
 # 1
-# def divide(x, y):
-#    result = x / y
-#    return result
-#
-# print(divide(6, 3))
+def divide(x, y):
+   result = x / y
+   return result
+
+print(divide(6, 3))
 
 def divide(x, y):
     try:
@@ -17,21 +17,15 @@ def divide(x, y):
 print(divide(1, 0))
 
 # 2
-# def ask_user():
-#     user_answer = input("Podaj liczbę: ")
-#     if user_answer is not int:
-#         raise Exception("Podana wartość nie jest integerem")
-#
-# ask_user()
 
-# def ask_for_number():
-#     answer = input("Podaj liczbę: ")
-#     try:
-#         int(answer)
-#     except ValueError as e:
-#         print(e)
-#
-# ask_for_number()
+def ask_for_number():
+    answer = input("Podaj liczbę: ")
+    try:
+        int(answer)
+    except ValueError as e:
+        print(e)
+
+ask_for_number()
 
 # 3
 def open_file(filepath):

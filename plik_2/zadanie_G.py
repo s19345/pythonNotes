@@ -17,5 +17,7 @@ match day_number:
         print("Sobota")
     case 7:
         print("Niedziela")
+    case _:
+        print("Podano nieprawidłową liczbę")
 
 
