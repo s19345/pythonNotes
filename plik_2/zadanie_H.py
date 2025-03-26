@@ -8,7 +8,8 @@
 # Uruchomienie my_lib2.py:
 # wykona się kod tylko poza blokiem if __name__ == "__main__".Wypisze:
 # Hello python outside main
-# W momencie importu pliku my_lib.py w my_lib2.py, wartość zmiennej __name__ w pliku my_lib.py będzie równa "my_lib" (nazwa pliku),
+# W momencie importowania modułu (czyli pliku) pythona, kod tego modułu jest odrazu wywoływany.
+# Podczas importu pliku my_lib.py w my_lib2.py, wartość zmiennej __name__ w pliku my_lib.py będzie równa "my_lib" (nazwa pliku),
 # a nie "__main__". Wtedy warunek if __name__ == "__main__": będzie fałszywy, bo __name__ nie jest równe "__main__".
 # W rezultacie kod wewnątrz tego bloku się nie wykona.
 
