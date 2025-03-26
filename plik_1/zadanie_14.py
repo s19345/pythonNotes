@@ -41,6 +41,25 @@ print(my_tuple)
 list1 = [7, 8, 9, 'a', 'b', 'c']
 tuple1 = (7, 8, 9, 'a', 'b', 'c')
 
+# 3. Wydajność
+# Lista - listy są bardziej elastyczne niż krotki, ponieważ pozwalają na modyfikacje.
+# Z tego względu dla listy przyznawana jest nadwyżka pamięci, aby te modyfikacje były mozliwe,
+# ale przez to listy są mniej wydaje niż krotki
+
+# Krotka (tuple) - jest bardziej wydajna, nie trzeba dla niej lokoważ aż tyle pamięci jak dla listy. Operacje na krotkach są szybsze
+# ponieważ nie muszą zarządzać zmiennością (krotki są niemutowalne)
+
+
+# 4. Metody
+# Lista - listy posiadają wiele metod, np. append(), remove(), pop(), sort(), które modyfikują listę
+# Krotka - krotki mają tylko dwie metody: count() i index(), ponieważ nie można ich modyfikować
+
+
+# 5. Możliwość używania jako klucze w słowniku
+# Lista - listy nie mogą być używane jako klucze w słowniku, ponieważ są mutowalne i nie są hashowalne
+# Krotka - krotki są niemutowalne, więc mogą być używane jako klucze w słowniku, są hashowalne
+
+
 
 # Add a new value after creating the list: At the end
 list1.append('d')
