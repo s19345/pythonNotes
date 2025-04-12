@@ -1,9 +1,11 @@
 counter = 0
 
-def increment():
+def inc():
     global counter
     counter += 1
     return counter
 
-print(increment())
-print(increment())
+print(inc())
+print(inc())
+print(inc())
+
