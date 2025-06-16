@@ -74,6 +74,7 @@ response = requests.get(url, params=params)
 
 if response.status_code == 200:
     dane = response.json()
+    print(type(dane))
     print("Aktualna pogoda:")
     current = dane["current_weather"]
     print(f"Temperatura: {current['temperature']}°C")
