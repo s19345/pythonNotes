@@ -116,6 +116,7 @@ print(isinstance(kierownik, Osoba))
 print(isinstance(kierownik, Pracownik))
 print(isinstance(kierownik, Kierownik))
 
+
 print(issubclass(Kierownik, Osoba))
 
 

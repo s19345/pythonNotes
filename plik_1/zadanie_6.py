@@ -3,3 +3,10 @@ Linia 2
 Linia 3'''
 
 print(text_variable)
+
+variable = """pierwsza
+druga
+trzecia
+"""
+
+print(variable)

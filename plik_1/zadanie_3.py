@@ -23,3 +23,5 @@ except TypeError as e:
     print(f'Błąd dla b + c: {e}')
 
 
+
+
